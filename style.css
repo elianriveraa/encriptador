@@ -38,38 +38,57 @@ main{
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
+    margin-top: 20px;
+    margin-left: 200px;
 }
 
 .boton-encriptar{
     margin: 5px;
-    width: 19%;
-    padding: 15px 0;
-    font-size: 18px;
+    width: 250px;
+    padding: 20px 0;
+    font-size: 22px;
+    background: #5e7eb5;
     font-weight: bold;
     color: white;
-    background: #5e7eb5;
     border: none;
+    padding: 16px 32px;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
 }
 
 .boton-desencriptar{
+    margin: 5px;
+    width: 250px;
+    padding: 20px 0;
+    font-size: 22px;
     background: #5e7eb5;
-    cursor: pointer;
+    font-weight: bold;
+    color: white;
     border: none;
     padding: 16px 32px;
-    color: #FFFFFF;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.boton-desencriptar:hover{
+    opacity: .8;
+    color: white;
     font-size: 24px;
-    font-weight: bold;
-    border-radius: 12px;
 }
 
 .respuesta{
+    background-image: url("Imagenes/Nubesegura.png");
+    background-repeat: no-repeat;
+    background-position: 30.5px, 400px;
+    opacity: .4;
     margin-top: 30px;
     background-color: #8fb8ea;
     font-size: 25px;
-    color: white;
+    color: black;
+    font-weight: bold;
     box-sizing: border-box;
     position: absolute;
     width: 400px;
@@ -77,6 +96,10 @@ main{
     left: 1000px;
     border-radius: 8px;
  
+}
+
+.respuesta:focus{
+    outline: none;
 }
 
 .respuesta:hover {
@@ -97,6 +120,14 @@ height: 67px;
 left: 1032px;
 top: 830px;
 border: 1px solid #0a3871;
+border-radius: 8px;
+opacity: .4;
+}
+
+.boton-copiar:hover{
+    opacity: .8;
+    color: #5e7eb5;
+    font-size: 16px;
 }
 
 footer{
