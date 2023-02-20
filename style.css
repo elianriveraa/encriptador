@@ -24,7 +24,7 @@ main{
     margin-top: 30px;
     margin-left: 100px;
     width: 800px;
-    height: 588;
+    height: 470px;
     background-color:#8fb8ea;
     font-size: 25px;
     color: black;
@@ -235,6 +235,6 @@ main{
 
 footer{
     text-align: center;
-    background: url(imagenes/FooterOcean.png);
+    background: url(Imagenes/FooterOcean.png);
     padding: 40px;
 }
