@@ -20,14 +20,14 @@
                 <img src="imagenes/info.png" class="imagen-info">
                 <h6 class="informacion">SOLO SE PERMITEN MINÚSCULAS Y SIN ACENTOS</h6>
                 <div class="botones">
-                    <button class="boton-encriptar">Encriptar</button>
-                    <button class="boton-desencriptar">Desencriptar</button>
+                    <button class="boton-encriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="boton-desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
                 </div>
             </section>
             <section>
                 <textarea cols="50" rows="30" class="respuesta"></textarea>
                 <div>
-                    <button class="boton-copiar">Copiar Texto</button>
+                    <button class="boton-copiar" onclick="copiar()">Copiar Texto</button>
                 </div>
             </section>
         </main>
@@ -37,5 +37,6 @@
                 <p class="copyright">&copy OceanicPixel 2023</p>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
