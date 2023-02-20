@@ -185,11 +185,6 @@ main{
     background-color:#83abdd;
 }
 
-.respuesta:hover {
-    /*background-color:#5e7eb5;
-    box-shadow: 1px 1px 2px 12px rgba(232,242,255,255);*/
-}
-
 .boton-copiar {
     font-size: 22px;
     background: #5e7eb5;
